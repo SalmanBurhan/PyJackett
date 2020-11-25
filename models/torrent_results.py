@@ -1,14 +1,4 @@
-# This code parses date/times, so please
-#
-#     pip install python-dateutil
-#
-# To use this code, make sure you
-#
-#     import json
-#
-# and then, to convert JSON from a string, do
-#
-#     result = TorrentResultfromdict(json.loads(json_string))
+#     result = TorrentResults(parsedJSON["Results"])
 
 from enum import Enum
 from datetime import datetime
